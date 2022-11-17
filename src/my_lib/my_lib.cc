@@ -2,10 +2,16 @@
 
 #include "my_lib.h"
 
-int print_hello_world()
+int print_hello_world(bool flag)
 {
-    std::cout << "Cout: Hello World" << '\n';
+    if (flag){
 
+
+    std::cout << "Cout: Hello World" << '\n';
+    }
+    else {
+        std::cout << "Example" << '\n';
+    }
     return 1;
 }
 
